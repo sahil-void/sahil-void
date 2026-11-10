@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="170" viewBox="0 0 270 170">
+<style>
+  .l{font:600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#1a1a1a;opacity:.85}
+  .b{font:italic 400 34px Georgia, 'Times New Roman', serif;fill:#1a1a1a}
+  .s{font:400 12.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#1a1a1a;opacity:.9}
+  .a{font:400 16px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#1a1a1a}
+  .in{opacity:0;animation:in .8s ease-out forwards}
+  @keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  @keyframes sheen{0%{transform:translateX(-300px)}100%{transform:translateX(300px)}}
+  .sh{animation:sheen 5s ease-in-out infinite;animation-delay:2s}
+</style>
+<clipPath id="c"><rect width="270" height="170" rx="14"/></clipPath>
+<rect width="270" height="170" rx="14" fill="#ffc928"/>
+<g clip-path="url(#c)"><rect class="sh" x="0" y="-20" width="60" height="220" fill="#ffffff" opacity=".12" transform="skewX(-20)"/></g>
+<text class="l in" x="22" y="34">STACK</text>
+<text class="a in" x="236" y="36">→</text>
+<text class="b in" x="22" y="92" style="animation-delay:.15s">HTML + CSS</text>
+<text class="s in" x="22" y="124" style="animation-delay:.3s">Plus Python, and a</text>
+<text class="s in" x="22" y="142" style="animation-delay:.4s">little JavaScript.</text>
+</svg>

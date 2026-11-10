@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="150" viewBox="0 0 270 150">
+<style>
+  .t{font:700 16px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#14161c}
+  .d{font:400 12.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#4a5060}
+  .g{font:500 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#6a7185}
+  .in{opacity:0;animation:in .7s ease-out forwards}
+  .pd{animation:pd 2.4s ease-in-out infinite;animation-delay:0s}
+  @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  @keyframes pd{0%,100%{opacity:1}50%{opacity:.3}}
+</style>
+<rect width="270" height="150" rx="14" fill="#f2efe8" stroke="#dcd7cb"/>
+<circle class="pd" cx="26" cy="32" r="5" fill="#ef3b2d"/>
+<text class="t in" x="40" y="37" style="animation-delay:0s">CodeCampus</text>
+<text class="d in" x="22" y="68" style="animation-delay:0.1s">A coding website built with</text>
+<text class="d in" x="22" y="86" style="animation-delay:0.2s">HTML, CSS and some JS.</text>
+<text class="g in" x="22" y="128">HTML · CSS</text>
+</svg>
