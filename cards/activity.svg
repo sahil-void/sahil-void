@@ -17,5 +17,5 @@
 <line x1="600" y1="28" x2="600" y2="232" stroke="#dcd7cb"/>
 <text class="sb" x="620" y="70" style="animation-delay:0.1s">1 <tspan style="font-size:20px">day</tspan></text><text class="ss" x="620" y="90">current streak</text>
 <text class="sb" x="620" y="136" style="animation-delay:0.25s">1 <tspan style="font-size:20px">day</tspan></text><text class="ss" x="620" y="156">longest streak</text>
-<text class="sb" x="620" y="202" style="animation-delay:0.4s">4 <tspan style="font-size:20px">/ 367</tspan></text><text class="ss" x="620" y="222">days with a commit</text>
+<text class="sb" x="620" y="202" style="animation-delay:0.4s">4 <tspan style="font-size:20px">/ 368</tspan></text><text class="ss" x="620" y="222">days with a commit</text>
 </svg>
