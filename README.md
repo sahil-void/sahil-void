@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Sahil builds.](cards/hero.svg)](https://codecampus.dpdns.org/)
+[![Sahil Void.](cards/hero.svg)](https://codecampus.dpdns.org/)
 
 [![Starting small, in blue](cards/heatmap.svg)](cards/heatmap.svg)
 
