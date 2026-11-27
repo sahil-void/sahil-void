@@ -13,6 +13,7 @@
 ### What I'm coding
 
 [![CodeCampus](cards/repo-1.svg)](https://github.com/sahil-void/CodeCampus)
+[![ScamQuest](cards/repo-2.svg)](https://github.com/sahil-void/Scamquest)
 [![calculator](cards/repo-2.svg)](https://github.com/sahil-void/calculator)
 
 </div>
