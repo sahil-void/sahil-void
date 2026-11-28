@@ -11,7 +11,7 @@
 <rect width="270" height="150" rx="14" fill="#f2efe8" stroke="#dcd7cb"/>
 <circle class="pd" cx="26" cy="32" r="5" fill="#ef3b2d"/>
 <text class="t in" x="40" y="37" style="animation-delay:0s">ScamQuest</text>
-<text class="d in" x="22" y="68" style="animation-delay:0.1s">Adaptive scam-awareness training</text>
-<text class="d in" x="22" y="86" style="animation-delay:0.2s">game with a Bayesian + Elo engine.</text>
+<text class="d in" x="22" y="68" style="animation-delay:0.1s">Adaptive scam-awareness</text>
+<text class="d in" x="22" y="86" style="animation-delay:0.2s">training with Bayesian + Elo.</text>
 <text class="g in" x="22" y="128">HTML</text>
 </svg>

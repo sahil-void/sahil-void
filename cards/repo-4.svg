@@ -11,7 +11,7 @@
 <rect width="270" height="150" rx="14" fill="#f2efe8" stroke="#dcd7cb"/>
 <circle class="pd" cx="26" cy="32" r="5" fill="#6f8cff"/>
 <text class="t in" x="40" y="37" style="animation-delay:0.30000000000000004s">sahil-void</text>
-<text class="d in" x="22" y="68" style="animation-delay:0.4s">This profile: the animated</text>
-<text class="d in" x="22" y="86" style="animation-delay:0.5s">README and its daily refresh.</text>
+<text class="d in" x="22" y="68" style="animation-delay:0.4s">This animated README and</text>
+<text class="d in" x="22" y="86" style="animation-delay:0.5s">its daily auto-refresh.</text>
 <text class="g in" x="22" y="128">JavaScript</text>
 </svg>
