@@ -14,7 +14,9 @@ const SANS = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif";
 const BLUE = "#2f5bff";
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-const write = (name, svg) => fs.writeFileSync(path.join(OUT, name), svg);
+const crypto = require("crypto");
+const out = {};
+const write = (name, svg) => { out[name] = svg; };
 
 // ---------- HERO ----------
 function hero() {
@@ -333,6 +335,27 @@ ${stat(`${active} <tspan style="font-size:20px">/ ${days.length}</tspan>`, "days
 </svg>`;
 }
 
+// Each card is saved as name.<content-hash>.svg and README.md is rebuilt from README.template.md,
+// so GitHub's image cache can never serve an outdated card.
+function finalize() {
+  const keep = new Set();
+  const ref = {};
+  for (const [name, svg] of Object.entries(out)) {
+    const base = name.replace(/\.svg$/, "");
+    const hash = crypto.createHash("md5").update(svg).digest("hex").slice(0, 8);
+    const file = `${base}.${hash}.svg`;
+    fs.writeFileSync(path.join(OUT, file), svg);
+    keep.add(file);
+    ref[base] = `cards/${file}`;
+  }
+  for (const f of fs.readdirSync(OUT)) if (f.endsWith(".svg") && !keep.has(f)) fs.unlinkSync(path.join(OUT, f));
+  const tpl = path.join(__dirname, "README.template.md");
+  if (fs.existsSync(tpl)) {
+    const md = fs.readFileSync(tpl, "utf8").replace(/\{\{([\w-]+)\}\}/g, (m, k) => ref[k] || m);
+    fs.writeFileSync(path.join(__dirname, "README.md"), md);
+  }
+}
+
 (async () => {
   write("hero.svg", hero());
   cfg.tiles.forEach((t, i) => write(`tile-${i + 1}.svg`, tile(t, i)));
@@ -346,5 +369,6 @@ ${stat(`${active} <tspan style="font-size:20px">/ ${days.length}</tspan>`, "days
   }
   write("heatmap.svg", heatmap(data));
   write("activity.svg", activity(data));
+  finalize();
   console.log(`Wrote cards to ${OUT} (${data.sample ? "sample" : "live"} data)`);
 })();
