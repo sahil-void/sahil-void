@@ -1,17 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="270" height="150" viewBox="0 0 270 150">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="220" viewBox="0 0 400 220">
 <style>
-  .t{font:700 16px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#14161c}
-  .d{font:400 12.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#4a5060}
-  .g{font:500 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#6a7185}
-  .in{opacity:0;animation:in .7s ease-out forwards}
-  .pd{animation:pd 2.4s ease-in-out infinite;animation-delay:0.4s}
+  .tg{font:600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#dbe4ff}
+  .ti{font:400 34px Georgia, 'Times New Roman', serif;fill:#ffffff;letter-spacing:-.5px}
+  .ds{font:400 13px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#dbe4ff}
+  .lg{font:500 11.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#dbe4ff}
+  .elo{font:600 10px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:1.5px;fill:#dbe4ff}
+  .disp{font:700 17px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#ffc928;animation:blink 1.4s steps(2,start) infinite}
+  .in{opacity:0;animation:in .8s ease-out forwards}
+  .ring{transform-box:fill-box;transform-origin:center;animation:ping 2.6s ease-out infinite;opacity:0}
+  .scan{animation:scan 2.4s ease-in-out infinite alternate}
+  .ln{transform-box:fill-box;transform-origin:left center;animation:type 5.5s ease-out infinite;transform:scaleX(0)}
+  .cur{animation:blink 1s steps(2,start) infinite}
+  .key{animation:press 4.4s infinite}
+  .ring2{transform-box:fill-box;transform-origin:center;animation:breathe 3.2s ease-in-out infinite}
+  .orb1{transform-origin:320px 116px;animation:spin 7s linear infinite}
+  .orb2{transform-origin:320px 116px;animation:spin 4.5s linear infinite reverse}
+  .sh{animation:sheen 6s ease-in-out infinite;animation-delay:1s}
   @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-  @keyframes pd{0%,100%{opacity:1}50%{opacity:.3}}
+  @keyframes ping{0%{transform:scale(.55);opacity:.7}100%{transform:scale(1);opacity:0}}
+  @keyframes scan{from{transform:translateY(0)}to{transform:translateY(112px)}}
+  @keyframes type{0%{transform:scaleX(0)}18%{transform:scaleX(1)}85%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+  @keyframes blink{50%{opacity:.15}}
+  @keyframes press{0%,86%,100%{opacity:1}91%{opacity:.3}}
+  @keyframes breathe{0%,100%{transform:scale(.94);opacity:.7}50%{transform:scale(1.06);opacity:1}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes sheen{0%{transform:translateX(-420px) skewX(-20deg)}100%{transform:translateX(420px) skewX(-20deg)}}
 </style>
-<rect width="270" height="150" rx="14" fill="#f2efe8" stroke="#dcd7cb"/>
-<circle class="pd" cx="26" cy="32" r="5" fill="#ffc928"/>
-<text class="t in" x="40" y="37" style="animation-delay:0.1s">CodeCampus</text>
-<text class="d in" x="22" y="68" style="animation-delay:0.2s">A coding website built with</text>
-<text class="d in" x="22" y="86" style="animation-delay:0.30000000000000004s">HTML, CSS and some JS.</text>
-<text class="g in" x="22" y="128">HTML · CSS</text>
+<clipPath id="r1k"><rect width="400" height="220" rx="18"/></clipPath>
+<rect width="400" height="220" rx="18" fill="#2f5bff" stroke="#2f5bff" stroke-width="1.5"/>
+<g clip-path="url(#r1k)"><rect class="sh" x="0" y="-20" width="70" height="260" fill="#ffffff" opacity=".07"/></g>
+
+<rect x="246" y="44" width="140" height="150" rx="12" fill="#0b1020" stroke="#9db6ff" stroke-opacity=".5" stroke-width="2"/>
+<rect x="246" y="44" width="140" height="26" rx="12" fill="#1a2140"/><rect x="246" y="58" width="140" height="12" fill="#1a2140"/>
+<circle cx="262" cy="57" r="4.5" fill="#ef3b2d"/><circle cx="277" cy="57" r="4.5" fill="#ffc928"/><circle cx="292" cy="57" r="4.5" fill="#9db6ff"/>
+<rect class="ln" x="262" y="86" width="60" height="8" rx="4" fill="#ffc928" style="animation-delay:0s"/><rect class="ln" x="276" y="103" width="92" height="8" rx="4" fill="#ffffff" style="animation-delay:0.35s"/><rect class="ln" x="290" y="120" width="48" height="8" rx="4" fill="#ef3b2d" style="animation-delay:0.7s"/><rect class="ln" x="262" y="137" width="80" height="8" rx="4" fill="#9db6ff" style="animation-delay:1.0499999999999998s"/><rect class="ln" x="276" y="154" width="64" height="8" rx="4" fill="#ffffff" style="animation-delay:1.4s"/><rect class="ln" x="290" y="171" width="72" height="8" rx="4" fill="#ffc928" style="animation-delay:1.75s"/>
+<rect class="cur" x="338" y="169" width="7" height="12" fill="#ffffff"/>
+<text class="tg in" x="28" y="40">WEBSITE</text>
+<text class="ti in" x="28" y="86" style="animation-delay:.1s">CodeCampus</text>
+<text class="ds in" x="28" y="120" style="animation-delay:.2s">A coding website built with</text>
+<text class="ds in" x="28" y="139" style="animation-delay:.28s">HTML, CSS and some JS.</text>
+<circle cx="32" cy="190" r="4.5" fill="#ffc928"/>
+<text class="lg" x="44" y="194">HTML · CSS</text>
 </svg>

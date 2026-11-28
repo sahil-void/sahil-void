@@ -1,17 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="270" height="150" viewBox="0 0 270 150">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="220" viewBox="0 0 400 220">
 <style>
-  .t{font:700 16px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#14161c}
-  .d{font:400 12.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#4a5060}
-  .g{font:500 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#6a7185}
-  .in{opacity:0;animation:in .7s ease-out forwards}
-  .pd{animation:pd 2.4s ease-in-out infinite;animation-delay:1.2000000000000002s}
+  .tg{font:600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#9aa6c8}
+  .ti{font:400 34px Georgia, 'Times New Roman', serif;fill:#f2efe8;letter-spacing:-.5px}
+  .ds{font:400 13px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#9aa6c8}
+  .lg{font:500 11.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#9aa6c8}
+  .elo{font:600 10px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:1.5px;fill:#9aa6c8}
+  .disp{font:700 17px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#ffc928;animation:blink 1.4s steps(2,start) infinite}
+  .in{opacity:0;animation:in .8s ease-out forwards}
+  .ring{transform-box:fill-box;transform-origin:center;animation:ping 2.6s ease-out infinite;opacity:0}
+  .scan{animation:scan 2.4s ease-in-out infinite alternate}
+  .ln{transform-box:fill-box;transform-origin:left center;animation:type 5.5s ease-out infinite;transform:scaleX(0)}
+  .cur{animation:blink 1s steps(2,start) infinite}
+  .key{animation:press 4.4s infinite}
+  .ring2{transform-box:fill-box;transform-origin:center;animation:breathe 3.2s ease-in-out infinite}
+  .orb1{transform-origin:320px 116px;animation:spin 7s linear infinite}
+  .orb2{transform-origin:320px 116px;animation:spin 4.5s linear infinite reverse}
+  .sh{animation:sheen 6s ease-in-out infinite;animation-delay:3s}
   @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-  @keyframes pd{0%,100%{opacity:1}50%{opacity:.3}}
+  @keyframes ping{0%{transform:scale(.55);opacity:.7}100%{transform:scale(1);opacity:0}}
+  @keyframes scan{from{transform:translateY(0)}to{transform:translateY(112px)}}
+  @keyframes type{0%{transform:scaleX(0)}18%{transform:scaleX(1)}85%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+  @keyframes blink{50%{opacity:.15}}
+  @keyframes press{0%,86%,100%{opacity:1}91%{opacity:.3}}
+  @keyframes breathe{0%,100%{transform:scale(.94);opacity:.7}50%{transform:scale(1.06);opacity:1}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes sheen{0%{transform:translateX(-420px) skewX(-20deg)}100%{transform:translateX(420px) skewX(-20deg)}}
 </style>
-<rect width="270" height="150" rx="14" fill="#f2efe8" stroke="#dcd7cb"/>
-<circle class="pd" cx="26" cy="32" r="5" fill="#6f8cff"/>
-<text class="t in" x="40" y="37" style="animation-delay:0.30000000000000004s">sahil-void</text>
-<text class="d in" x="22" y="68" style="animation-delay:0.4s">This animated README and</text>
-<text class="d in" x="22" y="86" style="animation-delay:0.5s">its daily auto-refresh.</text>
-<text class="g in" x="22" y="128">JavaScript</text>
+<clipPath id="r3k"><rect width="400" height="220" rx="18"/></clipPath>
+<rect width="400" height="220" rx="18" fill="#0d1017" stroke="#222a45" stroke-width="1.5"/>
+<g clip-path="url(#r3k)"><rect class="sh" x="0" y="-20" width="70" height="260" fill="#ffffff" opacity=".07"/></g>
+<circle cx="236" cy="30" r="1.8" fill="#27304a"/><circle cx="260" cy="30" r="1.8" fill="#27304a"/><circle cx="284" cy="30" r="1.8" fill="#27304a"/><circle cx="308" cy="30" r="1.8" fill="#27304a"/><circle cx="332" cy="30" r="1.8" fill="#27304a"/><circle cx="356" cy="30" r="1.8" fill="#27304a"/><circle cx="380" cy="30" r="1.8" fill="#27304a"/><circle cx="236" cy="62" r="1.8" fill="#27304a"/><circle cx="260" cy="62" r="1.8" fill="#27304a"/><circle cx="284" cy="62" r="1.8" fill="#27304a"/><circle cx="308" cy="62" r="1.8" fill="#27304a"/><circle cx="332" cy="62" r="1.8" fill="#27304a"/><circle cx="356" cy="62" r="1.8" fill="#27304a"/><circle cx="380" cy="62" r="1.8" fill="#27304a"/><circle cx="236" cy="94" r="1.8" fill="#27304a"/><circle cx="260" cy="94" r="1.8" fill="#27304a"/><circle cx="284" cy="94" r="1.8" fill="#27304a"/><circle cx="308" cy="94" r="1.8" fill="#27304a"/><circle cx="332" cy="94" r="1.8" fill="#27304a"/><circle cx="356" cy="94" r="1.8" fill="#27304a"/><circle cx="380" cy="94" r="1.8" fill="#27304a"/><circle cx="236" cy="126" r="1.8" fill="#27304a"/><circle cx="260" cy="126" r="1.8" fill="#27304a"/><circle cx="284" cy="126" r="1.8" fill="#27304a"/><circle cx="308" cy="126" r="1.8" fill="#27304a"/><circle cx="332" cy="126" r="1.8" fill="#27304a"/><circle cx="356" cy="126" r="1.8" fill="#27304a"/><circle cx="380" cy="126" r="1.8" fill="#27304a"/><circle cx="236" cy="158" r="1.8" fill="#27304a"/><circle cx="260" cy="158" r="1.8" fill="#27304a"/><circle cx="284" cy="158" r="1.8" fill="#27304a"/><circle cx="308" cy="158" r="1.8" fill="#27304a"/><circle cx="332" cy="158" r="1.8" fill="#27304a"/><circle cx="356" cy="158" r="1.8" fill="#27304a"/><circle cx="380" cy="158" r="1.8" fill="#27304a"/><circle cx="236" cy="190" r="1.8" fill="#27304a"/><circle cx="260" cy="190" r="1.8" fill="#27304a"/><circle cx="284" cy="190" r="1.8" fill="#27304a"/><circle cx="308" cy="190" r="1.8" fill="#27304a"/><circle cx="332" cy="190" r="1.8" fill="#27304a"/><circle cx="356" cy="190" r="1.8" fill="#27304a"/><circle cx="380" cy="190" r="1.8" fill="#27304a"/>
+<circle class="ring2" cx="320" cy="116" r="74" fill="none" stroke="#2f5bff" stroke-opacity=".25" stroke-width="2"/>
+<circle class="ring2" cx="320" cy="116" r="54" fill="none" stroke="#2f5bff" stroke-opacity=".5" stroke-width="2" style="animation-delay:.5s"/>
+<circle class="ring2" cx="320" cy="116" r="34" fill="none" stroke="#6f8cff" stroke-opacity=".8" stroke-width="2.5" style="animation-delay:1s"/>
+<g class="orb1"><circle cx="394" cy="116" r="6" fill="#ffc928"/></g>
+<g class="orb2"><circle cx="266" cy="116" r="5" fill="#ef3b2d"/></g>
+<circle cx="320" cy="116" r="17" fill="#000" stroke="#6f8cff" stroke-width="3"/>
+<text class="tg in" x="28" y="40">PROFILE</text>
+<text class="ti in" x="28" y="86" style="animation-delay:.1s">sahil-void</text>
+<text class="ds in" x="28" y="120" style="animation-delay:.2s">This animated README and</text>
+<text class="ds in" x="28" y="139" style="animation-delay:.28s">its daily auto-refresh.</text>
+<circle cx="32" cy="190" r="4.5" fill="#2f5bff"/>
+<text class="lg" x="44" y="194">JavaScript</text>
 </svg>

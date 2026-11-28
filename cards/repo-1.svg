@@ -1,17 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="270" height="150" viewBox="0 0 270 150">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="220" viewBox="0 0 400 220">
 <style>
-  .t{font:700 16px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#14161c}
-  .d{font:400 12.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#4a5060}
-  .g{font:500 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#6a7185}
-  .in{opacity:0;animation:in .7s ease-out forwards}
-  .pd{animation:pd 2.4s ease-in-out infinite;animation-delay:0s}
+  .tg{font:600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#9aa6c8}
+  .ti{font:400 34px Georgia, 'Times New Roman', serif;fill:#f2efe8;letter-spacing:-.5px}
+  .ds{font:400 13px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#9aa6c8}
+  .lg{font:500 11.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#9aa6c8}
+  .elo{font:600 10px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:1.5px;fill:#9aa6c8}
+  .disp{font:700 17px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#ffc928;animation:blink 1.4s steps(2,start) infinite}
+  .in{opacity:0;animation:in .8s ease-out forwards}
+  .ring{transform-box:fill-box;transform-origin:center;animation:ping 2.6s ease-out infinite;opacity:0}
+  .scan{animation:scan 2.4s ease-in-out infinite alternate}
+  .ln{transform-box:fill-box;transform-origin:left center;animation:type 5.5s ease-out infinite;transform:scaleX(0)}
+  .cur{animation:blink 1s steps(2,start) infinite}
+  .key{animation:press 4.4s infinite}
+  .ring2{transform-box:fill-box;transform-origin:center;animation:breathe 3.2s ease-in-out infinite}
+  .orb1{transform-origin:320px 116px;animation:spin 7s linear infinite}
+  .orb2{transform-origin:320px 116px;animation:spin 4.5s linear infinite reverse}
+  .sh{animation:sheen 6s ease-in-out infinite;animation-delay:0s}
   @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-  @keyframes pd{0%,100%{opacity:1}50%{opacity:.3}}
+  @keyframes ping{0%{transform:scale(.55);opacity:.7}100%{transform:scale(1);opacity:0}}
+  @keyframes scan{from{transform:translateY(0)}to{transform:translateY(112px)}}
+  @keyframes type{0%{transform:scaleX(0)}18%{transform:scaleX(1)}85%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+  @keyframes blink{50%{opacity:.15}}
+  @keyframes press{0%,86%,100%{opacity:1}91%{opacity:.3}}
+  @keyframes breathe{0%,100%{transform:scale(.94);opacity:.7}50%{transform:scale(1.06);opacity:1}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes sheen{0%{transform:translateX(-420px) skewX(-20deg)}100%{transform:translateX(420px) skewX(-20deg)}}
 </style>
-<rect width="270" height="150" rx="14" fill="#f2efe8" stroke="#dcd7cb"/>
-<circle class="pd" cx="26" cy="32" r="5" fill="#ef3b2d"/>
-<text class="t in" x="40" y="37" style="animation-delay:0s">ScamQuest</text>
-<text class="d in" x="22" y="68" style="animation-delay:0.1s">Adaptive scam-awareness</text>
-<text class="d in" x="22" y="86" style="animation-delay:0.2s">training with Bayesian + Elo.</text>
-<text class="g in" x="22" y="128">HTML</text>
+<clipPath id="r0k"><rect width="400" height="220" rx="18"/></clipPath>
+<rect width="400" height="220" rx="18" fill="#0d1017" stroke="#222a45" stroke-width="1.5"/>
+<g clip-path="url(#r0k)"><rect class="sh" x="0" y="-20" width="70" height="260" fill="#ffffff" opacity=".07"/></g>
+
+<clipPath id="r0c"><path d="M320 50 L378 72 V120 C378 152 352 174 320 188 C288 174 262 152 262 120 V72 Z"/></clipPath>
+<circle class="ring" cx="320" cy="116" r="78" fill="none" stroke="#ef3b2d" stroke-width="2"/>
+<circle class="ring" cx="320" cy="116" r="78" fill="none" stroke="#ef3b2d" stroke-width="2" style="animation-delay:1.3s"/>
+<path d="M320 50 L378 72 V120 C378 152 352 174 320 188 C288 174 262 152 262 120 V72 Z" fill="#171c30" stroke="#ef3b2d" stroke-width="4" stroke-linejoin="round"/>
+<g clip-path="url(#r0c)"><rect class="scan" x="255" y="50" width="130" height="26" fill="#ef3b2d" opacity=".35"/><rect class="scan" x="255" y="72" width="130" height="3" fill="#ff8d82"/></g>
+<rect x="315.5" y="86" width="9" height="44" rx="4.5" fill="#ef3b2d"/><circle cx="320" cy="148" r="5.5" fill="#ef3b2d"/>
+<text class="elo" x="320" y="212" text-anchor="middle">ELO 1200 → 1450</text>
+<text class="tg in" x="28" y="40">GAME</text>
+<text class="ti in" x="28" y="86" style="animation-delay:.1s">ScamQuest</text>
+<text class="ds in" x="28" y="120" style="animation-delay:.2s">Adaptive scam-awareness</text>
+<text class="ds in" x="28" y="139" style="animation-delay:.28s">training with Bayesian + Elo.</text>
+<circle cx="32" cy="190" r="4.5" fill="#ef3b2d"/>
+<text class="lg" x="44" y="194">HTML</text>
 </svg>
