@@ -2,9 +2,9 @@
 
 [![Sahil builds.](cards/hero.a5a4f7a7.svg)](https://codecampus.dpdns.org/)
 
-[![Starting small, in blue](cards/heatmap.094922de.svg)](cards/heatmap.094922de.svg)
+[![Starting small, in blue](cards/heatmap.6e966099.svg)](cards/heatmap.6e966099.svg)
 
-[![Last 12 months on GitHub](cards/activity.d150d0ca.svg)](cards/activity.d150d0ca.svg)
+[![Last 12 months on GitHub](cards/activity.bc096c2b.svg)](cards/activity.bc096c2b.svg)
 
 [![BUILD](cards/tile-1.ebc1fba9.svg)](https://github.com/sahil-void?tab=repositories)
 [![LIVE](cards/tile-2.33ab8fc2.svg)](https://codecampus.dpdns.org/)
