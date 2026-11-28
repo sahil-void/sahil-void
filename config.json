@@ -17,9 +17,9 @@
     { "label": "LATEST", "big": "ScamQuest", "line1": "A scam-awareness game", "line2": "with Bayesian + Elo.", "color": "#ffc928", "text": "#1a1a1a" }
   ],
   "projects": [
-    { "repo": "ScamQuest", "line1": "Adaptive scam-awareness training", "line2": "game with a Bayesian + Elo engine.", "lang": "HTML", "color": "#ef3b2d" },
-    { "repo": "CodeCampus", "line1": "A coding website built with", "line2": "HTML, CSS and some JS.", "lang": "HTML · CSS", "color": "#ffc928" },
-    { "repo": "calculator", "line1": "A simple command-line", "line2": "calculator built in Python.", "lang": "Python · MIT", "color": "#2f5bff" },
-    { "repo": "sahil-void", "line1": "This profile: the animated", "line2": "README and its daily refresh.", "lang": "JavaScript", "color": "#6f8cff" }
+    { "repo": "ScamQuest", "style": "shield", "tag": "GAME", "line1": "Adaptive scam-awareness", "line2": "training with Bayesian + Elo.", "lang": "HTML", "color": "#ef3b2d" },
+    { "repo": "CodeCampus", "style": "editor", "tag": "WEBSITE", "line1": "A coding website built with", "line2": "HTML, CSS and some JS.", "lang": "HTML · CSS", "color": "#ffc928" },
+    { "repo": "calculator", "style": "keypad", "tag": "TOOL", "line1": "A simple command-line", "line2": "calculator built in Python.", "lang": "Python · MIT", "color": "#2f5bff" },
+    { "repo": "sahil-void", "style": "orbit", "tag": "PROFILE", "line1": "This animated README and", "line2": "its daily auto-refresh.", "lang": "JavaScript", "color": "#6f8cff" }
   ]
 }
