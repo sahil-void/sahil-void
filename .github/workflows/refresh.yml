@@ -24,8 +24,6 @@ jobs:
         run: node generate.js
         env:
           GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
-      - name: Bust GitHub image cache
-        run: sed -i -E "s/\?v=[0-9]+/?v=$(date +%s)/g" README.md
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
