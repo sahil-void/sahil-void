@@ -19,7 +19,7 @@
 <text class="tag" x="60" y="49">DEVELOPER IN THE MAKING  ·  @sahil-void</text>
 <text class="n1 rise" x="38" y="150" style="animation-delay:.1s">Sahil</text>
 <text class="n2 rise" x="38" y="238" style="animation-delay:.35s">builds.</text>
-  <text class="role" x="40" y="288" style="animation-delay:0s">Building CodeCampus for the web.</text>
-  <text class="role" x="40" y="288" style="animation-delay:3s">HTML, CSS and Python so far.</text>
+  <text class="role" x="40" y="288" style="animation-delay:0s">Building ScamQuest and CodeCampus.</text>
+  <text class="role" x="40" y="288" style="animation-delay:3s">HTML, CSS, Python and JavaScript.</text>
   <text class="role" x="40" y="288" style="animation-delay:6s">Shipping a little more every week.</text>
 </svg>

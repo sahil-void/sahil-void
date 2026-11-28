@@ -9,9 +9,9 @@
   @keyframes pd{0%,100%{opacity:1}50%{opacity:.3}}
 </style>
 <rect width="270" height="150" rx="14" fill="#f2efe8" stroke="#dcd7cb"/>
-<circle class="pd" cx="26" cy="32" r="5" fill="#2f5bff"/>
-<text class="t in" x="40" y="37" style="animation-delay:0.1s">calculator</text>
-<text class="d in" x="22" y="68" style="animation-delay:0.2s">A simple command-line</text>
-<text class="d in" x="22" y="86" style="animation-delay:0.30000000000000004s">calculator built in Python.</text>
-<text class="g in" x="22" y="128">Python · MIT</text>
+<circle class="pd" cx="26" cy="32" r="5" fill="#ffc928"/>
+<text class="t in" x="40" y="37" style="animation-delay:0.1s">CodeCampus</text>
+<text class="d in" x="22" y="68" style="animation-delay:0.2s">A coding website built with</text>
+<text class="d in" x="22" y="86" style="animation-delay:0.30000000000000004s">HTML, CSS and some JS.</text>
+<text class="g in" x="22" y="128">HTML · CSS</text>
 </svg>

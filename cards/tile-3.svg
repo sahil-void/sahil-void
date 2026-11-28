@@ -12,9 +12,9 @@
 <clipPath id="c"><rect width="270" height="170" rx="14"/></clipPath>
 <rect width="270" height="170" rx="14" fill="#ffc928"/>
 <g clip-path="url(#c)"><rect class="sh" x="0" y="-20" width="60" height="220" fill="#ffffff" opacity=".12" transform="skewX(-20)"/></g>
-<text class="l in" x="22" y="34">STACK</text>
+<text class="l in" x="22" y="34">LATEST</text>
 <text class="a in" x="236" y="36">→</text>
-<text class="b in" x="22" y="92" style="animation-delay:.15s">HTML + CSS</text>
-<text class="s in" x="22" y="124" style="animation-delay:.3s">Plus Python, and a</text>
-<text class="s in" x="22" y="142" style="animation-delay:.4s">little JavaScript.</text>
+<text class="b in" x="22" y="92" style="animation-delay:.15s">ScamQuest</text>
+<text class="s in" x="22" y="124" style="animation-delay:.3s">A scam-awareness game</text>
+<text class="s in" x="22" y="142" style="animation-delay:.4s">with Bayesian + Elo.</text>
 </svg>
