@@ -4,20 +4,22 @@
   "nameLine1": "Sahil",
   "nameLine2": "builds.",
   "roles": [
-    "Building CodeCampus for the web.",
-    "HTML, CSS and Python so far.",
+    "Building ScamQuest and CodeCampus.",
+    "HTML, CSS, Python and JavaScript.",
     "Shipping a little more every week."
   ],
   "heatmapTitle": "Starting small,",
   "heatmapAccent": "in blue",
   "website": "https://codecampus.dpdns.org/",
   "tiles": [
-    { "label": "BUILD", "big": "2 projects", "line1": "CodeCampus, a live website,", "line2": "and a Python calculator.", "color": "#2f5bff", "text": "#ffffff" },
+    { "label": "BUILD", "big": "4 projects", "line1": "ScamQuest, CodeCampus, a", "line2": "calculator and this profile.", "color": "#2f5bff", "text": "#ffffff" },
     { "label": "LIVE", "big": "CodeCampus", "line1": "Online at", "line2": "codecampus.dpdns.org", "color": "#ef3b2d", "text": "#ffffff" },
-    { "label": "STACK", "big": "HTML + CSS", "line1": "Plus Python, and a", "line2": "little JavaScript.", "color": "#ffc928", "text": "#1a1a1a" }
+    { "label": "LATEST", "big": "ScamQuest", "line1": "A scam-awareness game", "line2": "with Bayesian + Elo.", "color": "#ffc928", "text": "#1a1a1a" }
   ],
   "projects": [
-    { "repo": "CodeCampus", "line1": "A coding website built with", "line2": "HTML, CSS and some JS.", "lang": "HTML · CSS", "color": "#ef3b2d" },
-    { "repo": "calculator", "line1": "A simple command-line", "line2": "calculator built in Python.", "lang": "Python · MIT", "color": "#2f5bff" }
+    { "repo": "ScamQuest", "line1": "Adaptive scam-awareness training", "line2": "game with a Bayesian + Elo engine.", "lang": "HTML", "color": "#ef3b2d" },
+    { "repo": "CodeCampus", "line1": "A coding website built with", "line2": "HTML, CSS and some JS.", "lang": "HTML · CSS", "color": "#ffc928" },
+    { "repo": "calculator", "line1": "A simple command-line", "line2": "calculator built in Python.", "lang": "Python · MIT", "color": "#2f5bff" },
+    { "repo": "sahil-void", "line1": "This profile: the animated", "line2": "README and its daily refresh.", "lang": "JavaScript", "color": "#6f8cff" }
   ]
 }
